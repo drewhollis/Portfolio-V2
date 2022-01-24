@@ -10,21 +10,21 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection, Span } from "./HeroStyles";
 
 export default function Hero() {
-  // const textRef = useRef();
+const textRef = useRef();
 
-  // useEffect(() => {
-  //   init(textRef.current, {
-  //     showCursor: true,
-  //     backDelay: 1500,
-  //     backSpeed: 60,
-  //     strings: [
-  //       "Front End Development",
-  //       "UI/UX Design",
-  //       "HTML/CSS/Javascript",
-  //       "React",
-  //     ],
-  //   });
-  // }, []);
+ useEffect(() => {
+   init(textRef.current, {
+    showCursor: true,
+    backDelay: 1500,
+    backSpeed: 60,
+    strings: [
+     "Front End Development",
+     "UI/UX Design",
+     "HTML/CSS/Javascript",
+     "React",
+    ],
+   });
+  }, []);
 
   return (
     <Section row nopadding>
