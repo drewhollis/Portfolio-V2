@@ -32,7 +32,7 @@ const textRef = useRef();
         <SectionTitle main center>
           Welcome To My Portfolio <br />
           My Skills Include <br />
-          {/* <Span ref={textRef}></Span> */}
+          <Span ref={textRef}></Span> 
         </SectionTitle>
         <SectionText>
           If you have any web development needs feel free to contact me by
