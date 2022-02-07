@@ -1,32 +1,32 @@
 export const projects = [
   {
-    title: "MetaMessenger",
+    title: "Budget App",
     description:
-      "Using React and Next.js I built the front end of a messaging application with a twist, it runs on a blockchain! Moralis.io allows this project to integrate with a MetaMask wallet for secure sign in.",
+      "Using React I created a budget app that allows users to track their expenses. Users can add expense groups as well as add and delete expenses from those expense groups.",
     image: "/images/blockchain-messenger.png",
-    tags: ["React", "Next", "Tailwind CSS", "Moralis.io"],
-    source: "https://github.com/drewhollis/MetaMessenger",
-    visit: "https://google.com",
+    tags: ["React", "Bootstrap"],
+    source: "https://github.com/drewhollis/React-Budget-App",
+    visit: "https://react-budget-app-delta.vercel.app/",
     id: 0,
   },
   {
     title: "E-Commerce Site",
     description:
-      "With React and Styled Components along with a Stripe integration I created an e-commerce site for a baker. The app is almost as sweet as the baked goods!",
-    image: "/images/macaroons.jpeg",
-    tags: ["React", "Stripe API", "Styled Components"],
-    source: "https://github.com/drewhollis/ReactEcomSite",
-    visit: "https://google.com",
+      "Just using HTML, CSS and Vanilla Javascript I created an ecommerce site front end. Feel free to shop around!",
+    image: "/images/ecommerce.jpeg",
+    tags: ["HTML", "CSS", "JavaScript"],
+    source: "https://github.com/drewhollis/Shoe-Store-HTML-CSS-JS",
+    visit: "https://shoe-store-html-css-js.vercel.app/",
     id: 1,
   },
   {
-    title: "Apartment Rental Management App",
+    title: "Admin Dashboard App",
     description:
-      "This is a demo piece of a full stack application I desinged for a real estate investor. It uses React, Node, ReCharts and MongoDB in the tech stack. Users can pay rent while property owners can manage their cashflow and tenants at a glance thanks to some pretty slick charts.",
+      "A front end of a CRM dashboard app using React with a Recharts library to make awesome charts.",
     image: "/images/dashboard-app.jpeg",
     tags: ["React", "Node", "ReCharts", "MongoDB"],
     source: "https://github.com/drewhollis/Admin-Dashboard",
-    visit: "https://google.com",
+    visit: "https://admin-dashboard-neon.vercel.app/",
     id: 2,
   },
   {
@@ -34,9 +34,9 @@ export const projects = [
     description:
       "This is a front end of a crypto price website where users can check the prices of crypto currencies.",
     image: "/images/crypto.jpeg",
-    tags: ["React", "APIs", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["React", "Redux", "APIs"],
+    source: "https://github.com/drewhollis/crypto-price-app-react-redux",
+    visit: "https://crypto-price-app-react-redux.vercel.app/",
     id: 3,
   },
 ];
@@ -59,5 +59,5 @@ export const data = [
   },
   { desc: 10, text: "Projects in GitHub portfolio" },
   { desc: 5, text: "Linkedin Learning badges in web development" },
-  { desc: 2, text: "AWS Certifications" },
+  { desc: 1, text: "AWS Certified Cloud Practicioner" },
 ];
