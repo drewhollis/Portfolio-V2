@@ -21,7 +21,7 @@ const Technologies = () => (
     <br />
     <SectionTitle>Tech Skills</SectionTitle>
     <SectionText>
-      I have worked with a modern teck stack for front end development as well
+      I have worked with a modern tech stack for front end development as well
       as NoSQL databases and AWS.
     </SectionText>
     <List>
