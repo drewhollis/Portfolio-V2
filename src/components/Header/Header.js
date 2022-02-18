@@ -1,7 +1,7 @@
-import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from "react-icons/ai";
 import { FaConnectdevelop } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 import {
   Container,
@@ -32,17 +32,17 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link activeClass="active" to="projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link activeClass="active" to="tech">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
+        <Link activeClass="active" to="about">
           <NavLink>About</NavLink>
         </Link>
       </li>
@@ -62,3 +62,4 @@ const Header = () => (
 );
 
 export default Header;
+
